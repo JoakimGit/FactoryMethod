@@ -23,8 +23,8 @@ public class Main {
             animal.speak();
         }
     }
-
-    public static AnimalShelter loadFactory(String animalType) {
+    
+    private static AnimalShelter loadFactory(String animalType) {
         AnimalShelter factory = null;
         if (animalType == null || animalType.length() < 1) {
             return null;

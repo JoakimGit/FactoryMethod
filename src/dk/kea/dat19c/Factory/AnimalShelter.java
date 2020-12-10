@@ -8,7 +8,6 @@ public abstract class AnimalShelter {
         Animal animal = createAnimal();
         animal.clean();
         animal.medicalCheckup();
-        System.out.println("All ready to leave the shelter");
         System.out.println(animal.getClass().getSimpleName() + " has been rescued.");
         return animal;
     }
